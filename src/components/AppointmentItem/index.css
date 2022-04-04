@@ -1,0 +1,36 @@
+/* Write your CSS here */
+
+.list-item {
+  border: 1px solid #b5b7c4;
+  background-color: white;
+  border-radius: 10px;
+  height: 66px;
+  width: 250px;
+  color: black;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.name-star-container {
+  display: flex;
+  justify-content: space-between;
+}
+.title-name {
+  font-size: 12px;
+  margin-left: 10px;
+}
+.date-cls {
+  font-size: 10px;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.star-cls {
+  height: 20px;
+  width: 20px;
+  margin-right: 0px;
+}
+.star-btn-bg {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}

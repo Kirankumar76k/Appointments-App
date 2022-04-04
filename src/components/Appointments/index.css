@@ -1,0 +1,105 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  font-family: roboto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  min-height: 500px;
+  padding: 65px;
+  min-width: 1000px;
+}
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.add-app-card {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 27px;
+}
+.label {
+  margin-top: 20px;
+  color: #b5b7c4;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+.input-cls {
+  height: 30px;
+  min-width: 170px;
+  outline: none;
+  border-radius: 6px;
+}
+.button {
+  border: 0px;
+  margin-top: 20px;
+  color: white;
+  font-size: 11px;
+  height: 25px;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: #8b5cf6;
+  align-self: flex-start;
+}
+.hr {
+  border: 1px solid #b5b7c4;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 32px;
+}
+
+.star-btn {
+  border: 1px solid #8b5cf6;
+  height: 24px;
+  background-color: white;
+  width: 70px;
+  border-radius: 12px;
+  color: #8b5cf6;
+  font-size: 11px;
+  outline: none;
+}
+
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
+
+.app-star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.itemList {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+.item-container {
+  margin-left: 0px;
+}
